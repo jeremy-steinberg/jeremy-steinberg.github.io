@@ -7,16 +7,58 @@
 
  
 h1{
-	color:white;
+	color:black;
 }
 
-.blockbackground{
-	background-color:#46608a;	
+
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: white!important;
+	text-align:center;
+	background-color:#f1c288;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
 	margin-top:20px;
-	margin-bottom:20px;
-	border-radius:30px;
+	font-weight:900;
 }
 
+.topJeremyandEsther{
+	color:white;
+	text-align:center;
+	font-size: 72px;
+	font-weight: 100;
+	font-family: Verdana;
+}
+
+.topdate{
+	color:#6c6772;
+	text-align:center;
+}
+
+
+.bigbanner{
+	background-color:#191122;	
+	margin-bottom:20px;
+	border-radius:0px;
+	padding-top:120px;
+	padding-bottom:120px;
+	text-align:center;
+}
+
+.mediumbanner{
+	background-color:#191122;	
+	margin-bottom:20px;
+	margin-top:20px;
+	border-radius:0px;
+	padding-top:100px;
+	padding-bottom:100px;
+	text-align:center;
+}
 
 
 .maintext{
@@ -141,8 +183,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(1080px - (30px * 2));
+  max-width: calc(1080px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
@@ -181,10 +223,10 @@ pre {
  */
 .site-header {
   border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 0px solid #e8e8e8;
   min-height: 55.95px;
   position: relative; 
-  background-color: #46608a;
+  background-color: #191122;
   }
 
 .site-title {
@@ -195,7 +237,7 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: white; }
+    color: #f1c288; }
 
 .site-nav {
   float: right;
@@ -205,8 +247,14 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: white;
+    color: #f1c288;
     line-height: 1.5; }
+  .site-nav .page-link-special {
+    color: white;
+    line-height: 1.5;
+	border-style:solid;
+	border-color:white;
+	padding:10px;}
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
@@ -214,7 +262,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #46608a;
+      background-color: #191122;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
