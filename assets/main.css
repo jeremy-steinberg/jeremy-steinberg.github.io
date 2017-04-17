@@ -1,3 +1,10 @@
+.paperbg{
+	background-image: url(https://cdn.pixabay.com/photo/2017/01/07/00/05/paper-1959384_960_720.jpg);
+	box-shadow: 0 0 8px 8px white inset;
+	border-radius: 5px;
+	padding: 50px;
+}
+
 /**
  * Cool background picture!
  */
@@ -22,12 +29,13 @@ main{
  */
  h1, h2, h3{
 	 text-align: center;
-	 color:white;
+	 color:black;
  }
 
  
 h1{
 	color:white;
+	font-size:52px;
 }
 
 
@@ -84,7 +92,7 @@ a.button {
 
 .maintext{
 	text-align:center;
-	color:white;
+	color:black;
 }
  
 /**
@@ -409,7 +417,9 @@ pre {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 30px; 
+  color:white;
+  font-size:16px;}
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
