@@ -2,7 +2,7 @@
  * Cool background picture!
  */
 main{
-	background: url('https://raw.githubusercontent.com/jeremy-steinberg/jeremy-steinberg.github.io/master/img/Background2.JPG') no-repeat fixed center 0;
+	background: url('https://raw.githubusercontent.com/jeremy-steinberg/jeremy-steinberg.github.io/master/img/Proposal Location.JPG') no-repeat fixed center 0;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -13,8 +13,6 @@ main{
 	max-width:100%;
 	max-height:100%;
 	width:auto;  
-	height: 100%;
-	z-index: -1;
 }
 
 
@@ -40,6 +38,7 @@ a.button {
     appearance: button;
     text-decoration: none;
     color: white!important;
+	text-align:center;
 	text-align:center;
 	background-color:#f1c288;
 	padding:10px;
