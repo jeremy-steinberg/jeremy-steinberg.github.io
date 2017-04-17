@@ -3,9 +3,9 @@
  */
 main{
   background: url('https://raw.githubusercontent.com/jeremy-steinberg/jeremy-steinberg.github.io/master/img/Background2.JPG') no-repeat fixed center 0;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
 }
 
 
