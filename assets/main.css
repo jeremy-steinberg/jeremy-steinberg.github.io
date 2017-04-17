@@ -1,20 +1,17 @@
+
 body {
   margin: 0px;
   font-family: 'Cedarville Cursive', cursive;
 }
 
 div#background {
-  height: 300px;
-  width: 100%;
   background-image: none;
-  padding-top: 20px;
 }
 
 div#gallery {
-  width: 70%;
+  max-width: 500px;
   margin: auto;
 }
-
 
 #background img {
   width: 100%;
