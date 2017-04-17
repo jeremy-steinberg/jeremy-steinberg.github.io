@@ -1,13 +1,25 @@
 /**
+ * Cool background picture!
+ */
+main{
+  background: url('https://raw.githubusercontent.com/jeremy-steinberg/jeremy-steinberg.github.io/master/img/Background2.JPG') no-repeat fixed center 0;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+
+/**
  * Reset some basic elements
  */
  h1, h2, h3{
 	 text-align: center;
+	 color:white;
  }
 
  
 h1{
-	color:black;
+	color:white;
 }
 
 
@@ -43,7 +55,7 @@ a.button {
 
 .bigbanner{
 	background-color:#191122;	
-	margin-bottom:20px;
+	margin-bottom:0px;
 	border-radius:0px;
 	padding-top:120px;
 	padding-bottom:120px;
@@ -52,8 +64,8 @@ a.button {
 
 .mediumbanner{
 	background-color:#191122;	
-	margin-bottom:20px;
-	margin-top:20px;
+	margin-bottom:50px;
+	margin-top:50px;
 	border-radius:0px;
 	padding-top:100px;
 	padding-bottom:100px;
@@ -63,6 +75,7 @@ a.button {
 
 .maintext{
 	text-align:center;
+	color:white;
 }
  
 /**
