@@ -111,13 +111,11 @@ figure.pic11 {
  * Cool background picture!
  */
 main{
-	background: url('https://raw.githubusercontent.com/jeremy-steinberg/jeremy-steinberg.github.io/master/img/Proposal Location.JPG') center 0;
+	background: url('https://raw.githubusercontent.com/jeremy-steinberg/jeremy-steinberg.github.io/master/img/Proposal Location.JPG') no-repeat center center fixed;
 	-moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 
 
