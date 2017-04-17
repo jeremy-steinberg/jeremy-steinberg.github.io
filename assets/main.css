@@ -38,12 +38,12 @@ figure.pic1 {
 }
 
 figure.pic2 {
-  -webkit-transform : rotate(15deg);
+  -webkit-transform : rotate(5deg);
   z-index: 2;
 }
 
 figure.pic3 {
-  -webkit-transform : rotate(-25deg);
+  -webkit-transform : rotate(-10deg);
   z-index: 1;
 }
 
