@@ -2,10 +2,10 @@
  * Map
  */
 #map {
-	box-shadow: 2px 2px 5px 1px #ffffff;
+	box-shadow: 2px 2px 5px 1px #000000;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #ffffff;
+	border-color: #000000;
 }
 
  
