@@ -105,6 +105,37 @@ figure.pic11 {
 	box-shadow: 0 0 8px 8px white inset;
 	border-radius: 5px;
 	padding: 50px;
+	-webkit-transform : rotate(2deg);
+}
+
+.paperbg2{
+	background-image: url('http://i.imgur.com/Btt8tbe.jpg');
+	box-shadow: 0 0 8px 8px white inset;
+	border-radius: 5px;
+	padding: 50px;
+	-webkit-transform : rotate(-3deg);
+}
+
+.paperbg3{
+	background-image: url('http://i.imgur.com/Btt8tbe.jpg');
+	box-shadow: 0 0 8px 8px white inset;
+	border-radius: 5px;
+	padding: 50px;
+	-webkit-transform : rotate(1deg);
+}
+
+.paperbg4{
+	background-image: url('http://i.imgur.com/Btt8tbe.jpg');
+	box-shadow: 0 0 8px 8px white inset;
+	border-radius: 5px;
+	padding: 50px;
+	-webkit-transform : rotate(-2deg);
+}
+
+.paperbg:hover, .paperbg2:hover, .paperbg3:hover, .paperbg4:hover {
+
+  -webkit-transform: scale(1.1,1.1);
+  z-index: 20;
 }
 
 /**
