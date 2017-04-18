@@ -8,7 +8,7 @@
 	border-color: #000000;
 }
 
- 
+
  
 /**
  * Cool polaroids!!
@@ -111,7 +111,9 @@ figure.pic11 {
 	background-image: url('http://i.imgur.com/Btt8tbe.jpg');
 	box-shadow: 0 0 8px 8px white inset;
 	border-radius: 5px;
-	padding: 50px;
+	padding: 40px;
+	max-width: 70%;
+	margin: auto;
 	-webkit-transform : rotate(2deg);
 }
 
@@ -119,15 +121,19 @@ figure.pic11 {
 	background-image: url('http://i.imgur.com/Btt8tbe.jpg');
 	box-shadow: 0 0 8px 8px white inset;
 	border-radius: 5px;
-	padding: 50px;
-	-webkit-transform : rotate(-3deg);
+	padding: 40px;
+	max-width: 70%;
+	margin: auto;
+	-webkit-transform : rotate(-2deg);
 }
 
 .paperbg3{
 	background-image: url('http://i.imgur.com/Btt8tbe.jpg');
 	box-shadow: 0 0 8px 8px white inset;
 	border-radius: 5px;
-	padding: 50px;
+	padding: 40px;
+	max-width: 70%;
+	margin: auto;
 	-webkit-transform : rotate(1deg);
 }
 
@@ -135,13 +141,15 @@ figure.pic11 {
 	background-image: url('http://i.imgur.com/Btt8tbe.jpg');
 	box-shadow: 0 0 8px 8px white inset;
 	border-radius: 5px;
-	padding: 50px;
-	-webkit-transform : rotate(-2deg);
+	padding: 40px;
+	max-width: 70%;
+	margin: auto;
+	-webkit-transform : rotate(-1deg);
 }
 
 .paperbg:hover, .paperbg2:hover, .paperbg3:hover, .paperbg4:hover {
 
-  -webkit-transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.05,1.05);
   z-index: 20;
 }
 
