@@ -1,3 +1,6 @@
+
+
+
 /**
  * Map
  */
@@ -205,6 +208,22 @@ a.button {
 	font-weight: 100;
 	font-family: Verdana;
 }
+
+		@media screen and (max-width: 600px) {
+			.topJeremyandEsther {
+				font-size: 48px;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+		}
+		
+		@media screen and (max-width: 600px) {
+			h2 {
+				font-size: 20px;
+				margin-left: 15px;
+				margin-right: 15px;
+			}
+		}
 
 .topdate{
 	color:#6c6772;
